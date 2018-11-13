@@ -13,7 +13,7 @@
     width: 62.5815%;
     height: 75px;
     /* padding: 31%; */
-    /* background: orange; */
+    background: orange;
     text-align: center;
     /* vertical-align: middle; */
   }  
@@ -29,7 +29,7 @@
      width: 62.5815%;
     height: 150px;
     text-align: center;
-    /* background: green; */
+    background: green;
   }
   /* c d */
   section {
@@ -37,7 +37,7 @@
     width: 62.5815%;
     height: 125px;
     text-align: center;
-    /* background: blue; */
+    background: blue;
   }
   ul {
     /* border: 1px solid black; */
@@ -54,7 +54,7 @@
     /* display: inline-block; */
     float: left;
     text-align: center;
-    /* background: pink; */
+    background: pink;
   }
 
   /* div {
@@ -66,15 +66,26 @@
     width: 480px;
     height: 80px;
     text-align: center;
-    /* background: rgb(7, 201, 191); */
+    background: rgb(7, 201, 191);
   }
-
+  #d {
+    background: rgb(87, 4, 73);
+  }
+  #f {
+    background: gold;
+  }
+  #g {
+    background: magenta;
+    
+  }
+  #h {
+    background: teal;
+  }
 }
 
 /* if screen is equal to or larger than 768 px, which is supposedly mobile size for this lab, therefore we're on desktop */
 @media screen and (min-width: 768px) {
   body {
-    /* background: purple; */
     width: 960px;
     float: left;
     margin: auto;
@@ -85,7 +96,8 @@
     width: 960px;
     height: 100px;
     border: 1px solid black;
-    /* background: orange; */
+    background: orange;
+    text-align: center;
   }  
 
   main {
@@ -102,8 +114,9 @@
     border: 1px solid black;
     width: 190px;
     height: 600px;
-    /* background: green; */
+    background: green;
     float: left;
+    text-align: center;
   }
 
   #cdefghi {
@@ -114,28 +127,19 @@
 
   }
   /* c d  */
-  /* div {
-    width: 750px;
-    height: 600px;
-    /* float: left; 
-  } */
-  /* #cd {
-    width: 766px;
-    height: 205px;
-    float: left;
-  } */
   section {
     border: 1px solid black;
     width: 380px;
     height: 200px;
-    /* background: blue; */
-    float: right;
+    background: blue;
+    float: left;
+    text-align: center;
   }
   ul {
     /* width: 770px;
     height: 300px; */
     border: 1px solid black;
-    /* background: purple; */
+    background: purple;
     /* display: inline-block; */
   }
   /* e f g h  */
@@ -143,19 +147,36 @@
     border: 1px solid black;
     width: 189px;
     height: 250px;
-    /* background: pink; */
+    background: pink;
     /* display: inline-block; */
     float: left;
+    text-align: center;
   }
 /* i */
   p {
     border: 1px solid black;
     width: 760px;
     height: 150px;
-    /* background: gray; */
+    background: gray;
     margin-top: 450px;
+    text-align: center;
   }
   cleardiv{
     clear: both;
   }
+
+  #d {
+    background: rgb(87, 4, 73);
+  }
+  #f {
+    background: gold;
+  }
+  #g {
+    background: magenta;
+    
+  }
+  #h {
+    background: teal;
+  }
+
 }
