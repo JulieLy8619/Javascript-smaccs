@@ -128,31 +128,32 @@
     border: 1px solid black;
     width: 380px;
     height: 200px;
-    background: blue;
+    /* background: blue; */
     float: right;
   }
   ul {
-    width: 960px;
-    height: 255px;
+    /* width: 770px;
+    height: 300px; */
     border: 1px solid black;
-    background: purple;
+    /* background: purple; */
     /* display: inline-block; */
   }
   /* e f g h  */
   li {
     border: 1px solid black;
-    width: 190px;
+    width: 189px;
     height: 250px;
-    background: pink;
+    /* background: pink; */
     /* display: inline-block; */
-    float: right;
+    float: left;
   }
 /* i */
   p {
     border: 1px solid black;
     width: 760px;
     height: 150px;
-    background: gray;
+    /* background: gray; */
+    margin-top: 450px;
   }
   cleardiv{
     clear: both;
