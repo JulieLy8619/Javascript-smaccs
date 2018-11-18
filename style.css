@@ -98,7 +98,7 @@ html {
   /* b */
   aside {
     border: 1px solid black;
-    width: 19.7917%;
+    width: 20.6%;
     height: 600px;
     background: green;
     float: left;
@@ -106,14 +106,14 @@ html {
   }
 
   #cdefghi {
-    width: 79.7917%;
+    width: 79.1667%;
     float: right;
 
   }
   /* c d  */
   section {
     border: 1px solid black;
-    width: 39.5833%;
+    width: 49.738%;
     height: 200px;
     background: blue;
     float: left;
@@ -126,7 +126,7 @@ html {
   /* e f g h  */
   li {
     border: 1px solid black;
-    width: 20.6875%;
+    width: 24.7%;
     height: 250px;
     background: pink;
     float: left;
@@ -135,7 +135,7 @@ html {
 /* i */
   footer {
     border: 1px solid black;
-    width: 79.1667%;
+    width: 78.85%;
     height: 150px;
     background: gray;
     text-align: center;
