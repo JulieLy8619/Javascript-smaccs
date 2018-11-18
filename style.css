@@ -57,11 +57,8 @@
     background: pink;
   }
 
-  /* div {
-    clear: both;
-  } */
 /* i */
-  p {
+  footer {
     border: 1px solid black;
     width: 480px;
     height: 80px;
@@ -103,7 +100,7 @@
   main {
     border: 1px solid black;
     width: 960px;
-    height: 610px;
+    /* height: 610px; */
     /* background: yellow; */
     /* float: left; */
     /* clear: right; */
@@ -121,7 +118,7 @@
 
   #cdefghi {
     width: 766px;
-    height: 600px;
+    /* height: 600px; */
     /* background: rgb(13, 192, 177); */
     float: right;
 
@@ -153,14 +150,15 @@
     text-align: center;
   }
 /* i */
-  p {
+  footer {
     border: 1px solid black;
     width: 760px;
     height: 150px;
     background: gray;
-    margin-top: 450px;
     text-align: center;
+    float: right;
   }
+
   cleardiv{
     clear: both;
   }
