@@ -2,7 +2,10 @@
 @media screen and (max-width: 767px) {
   body {
     width: 767px;
-    float: left;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     margin: 100px;
   }
   /* a */
@@ -35,13 +38,16 @@
   ul {
     width: 500px;
     height: 504px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   /* e f g h */
   li {
     border: 1px solid black;
     width: 47.75%;
     height: 250px;
-    float: left;
+    /* float: left; */
     text-align: center;
     background: pink;
   }
@@ -79,8 +85,10 @@ html {
 
   body {
     width: 100%;
-    float: left;
+    /* float: left; */
     margin: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
   }
   /* a */
   h1 {
@@ -94,6 +102,9 @@ html {
   main {
     border: 1px solid black;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   /* b */
   aside {
@@ -101,35 +112,41 @@ html {
     width: 20.6%;
     height: 600px;
     background: green;
-    float: left;
+    /* float: left; */
     text-align: center;
   }
 
   #cdefghi {
     width: 79.1667%;
-    float: right;
-
+    /* float: right; */
   }
+
   /* c d  */
+  #cd {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   section {
     border: 1px solid black;
     width: 49.738%;
     height: 200px;
     background: blue;
-    float: left;
+    /* float: left; */    
     text-align: center;
   }
-  /* ul {
-    border: 1px solid black;
-    background: purple;
-  } */
+
   /* e f g h  */
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
   li {
     border: 1px solid black;
     width: 24.7%;
     height: 250px;
     background: pink;
-    float: left;
+    /* float: left; */
     text-align: center;
   }
 /* i */
@@ -139,7 +156,7 @@ html {
     height: 150px;
     background: gray;
     text-align: center;
-    float: right;
+    /* float: right; */
   }
 
   cleardiv{
