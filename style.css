@@ -2,10 +2,8 @@
 @media screen and (max-width: 767px) {
   body {
     width: 767px;
-    /* float: left; */
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     margin: 100px;
   }
   /* a */
@@ -75,20 +73,125 @@
   }
 }
 
-/* if screen is equal to or larger than 768 px, which is supposedly mobile size for this lab, therefore we're on desktop */
-@media screen and (min-width: 768px) {
-html {
+
+/* if screen is betwee, 768 px and 959 px, which is supposedly tablet size for this lab */
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  html {
   width: 960px;
+  height: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
   body {
     width: 100%;
-    /* float: left; */
+    height: 100%;
     margin: auto;
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* a */
+  h1 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background: rgb(88, 3, 3);
+    text-align: center;
+  }  
+  span {
+    width: 79.16%;
+    height: 600px;
+  }
+  /* b */
+  aside {
+    border: 1px solid black;
+    width: 20.6%;
+    height: 85.71%;
+    background: rgb(2, 65, 2);
+    text-align: center;
+  }
+
+  #cdefghi {
+    width: 100%;
+    height: 75%;
+  }
+
+  /* c d  */
+  #cd {
+    width: 100%;
+    height: 44.44%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    border: 1px solid black;
+    width: 49.73%;
+    height: 100%;
+    background: rgb(6, 6, 85);   
+    text-align: center;
+  }
+
+  /* e f g h  */
+  ul {
+    width: 100%;
+    height: 55.55%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    border: 1px solid black;
+    width: 24.735%;
+    height: 100%;
+    background: rgb(185, 47, 70);
+    text-align: center;
+  }
+/* i */
+  footer {
+    border: 1px solid black;
+    width: 99.9%;
+    height: 25%;
+    
+    background: rgb(63, 55, 55);
+    text-align: center;
+  }
+
+  cleardiv{
+    clear: both;
+  }
+
+  #d {
+    background: rgb(224, 12, 189);
+  }
+  #f {
+    background: rgb(134, 115, 8);
+  }
+  #g {
+    background: rgb(82, 3, 82);
+    
+  }
+  #h {
+    background: rgb(2, 46, 46);
+  }
+}
+
+/* if screen is equal to or larger than 768 px, which is supposedly mobile size for this lab, therefore we're on desktop */
+@media screen and (min-width: 960px) {
+html {
+  width: 960px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   /* a */
   h1 {
@@ -98,65 +201,62 @@ html {
     background: orange;
     text-align: center;
   }  
-
-  main {
-    border: 1px solid black;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  span {
+    width: 79.16%;
+    height: 600px;
   }
   /* b */
   aside {
     border: 1px solid black;
     width: 20.6%;
-    height: 600px;
+    height: 85.71%;
     background: green;
-    /* float: left; */
     text-align: center;
   }
 
   #cdefghi {
-    width: 79.1667%;
-    /* float: right; */
+    width: 100%;
+    height: 75%;
   }
 
   /* c d  */
   #cd {
+    width: 100%;
+    height: 44.44%;
     display: flex;
     flex-wrap: wrap;
   }
   
   section {
     border: 1px solid black;
-    width: 49.738%;
-    height: 200px;
-    background: blue;
-    /* float: left; */    
+    width: 49.73%;
+    height: 100%;
+    background: blue;   
     text-align: center;
   }
 
   /* e f g h  */
   ul {
+    width: 100%;
+    height: 55.55%;
     display: flex;
     flex-wrap: wrap;
   }
   li {
     border: 1px solid black;
-    width: 24.7%;
-    height: 250px;
+    width: 24.735%;
+    height: 100%;
     background: pink;
-    /* float: left; */
     text-align: center;
   }
 /* i */
   footer {
     border: 1px solid black;
-    width: 78.85%;
-    height: 150px;
+    width: 99.9%;
+    height: 25%;
+    
     background: gray;
     text-align: center;
-    /* float: right; */
   }
 
   cleardiv{
@@ -178,3 +278,4 @@ html {
   }
 
 }
+
