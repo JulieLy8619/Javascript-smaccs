@@ -87,8 +87,9 @@ html {
     width: 100%;
     /* float: left; */
     margin: auto;
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   /* a */
   h1 {
@@ -98,13 +99,17 @@ html {
     background: orange;
     text-align: center;
   }  
-
+/* 
   main {
     border: 1px solid black;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  } */
+  span {
+    width: 79.16%;
+    height: 600px;
   }
   /* b */
   aside {
@@ -117,19 +122,24 @@ html {
   }
 
   #cdefghi {
-    width: 79.1667%;
+    width: 100%;
+    height: 75%;
     /* float: right; */
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
   }
 
   /* c d  */
   #cd {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
   
   section {
     border: 1px solid black;
-    width: 49.738%;
+    width: 49.65%;
     height: 200px;
     background: blue;
     /* float: left; */    
@@ -148,12 +158,16 @@ html {
     background: pink;
     /* float: left; */
     text-align: center;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
   }
 /* i */
   footer {
     border: 1px solid black;
-    width: 78.85%;
+    width: 100%;
     height: 150px;
+    
     background: gray;
     text-align: center;
     /* float: right; */
